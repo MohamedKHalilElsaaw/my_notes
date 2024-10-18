@@ -28,12 +28,12 @@ class NotesItem extends StatelessWidget {
               ),
             ),
             subtitle: Padding(
-              padding: const EdgeInsets.only(top: 16, bottom: 16),
+              padding: const EdgeInsets.only(top: 16, bottom: 14),
               child: Text(
                 'Build Your Career With Mohamed Khalil ',
                 style: TextStyle(
                   color: Colors.black.withOpacity(.5),
-                  fontSize: 18,
+                  fontSize: 17,
                 ),
               ),
             ),
