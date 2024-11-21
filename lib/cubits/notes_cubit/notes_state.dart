@@ -3,17 +3,17 @@ part of 'notes_cubit.dart';
 @immutable
 abstract class NotesState {}
 
-class NoteInitial extends NotesState {}
+class NotesInitial extends NotesState {}
 
-class NoteLoading extends NotesState {}
+class NotesLoading extends NotesState {}
 
-class NoteSuccess extends NotesState {
+class NotesSuccess extends NotesState {
   final List<NoteModel> notes;
 
-  NoteSuccess(this.notes);
+  NotesSuccess(this.notes);
 }
 
-class NoteFailure extends NotesState {
+class NotesFailure extends NotesState {
   final String errMessege;
-  NoteFailure(this.errMessege);
+  NotesFailure(this.errMessege);
 }
