@@ -1,4 +1,37 @@
-import 'package:flutter/animation.dart';
+import 'package:flutter/material.dart';
 
 const kPrimaryColor = Color(0xff6BA7A0);
 const kNotesBox = 'notes_box';
+List<Color> kColors = const [
+  Color.fromARGB(255, 182, 90, 90),
+  Colors.brown,
+  Colors.blueGrey,
+  Colors.cyan,
+  Colors.tealAccent,
+  Colors.purple,
+  Colors.deepPurple,
+  Colors.pink,
+  Colors.lime,
+  Colors.yellowAccent,
+  Colors.yellow,
+  Colors.orangeAccent,
+  Colors.deepOrange,
+  Colors.lightGreen,
+  Colors.green,
+  Colors.greenAccent,
+  Colors.lightGreen,
+  Colors.lightGreenAccent,
+  Colors.blueGrey,
+  Colors.grey,
+  Colors.indigoAccent,
+  Colors.indigo,
+  Colors.blueAccent,
+  Colors.blue,
+  Colors.redAccent,
+  Colors.red,
+  Color.fromARGB(255, 133, 5, 5),
+  Color.fromARGB(255, 6, 18, 125),
+  Color.fromARGB(255, 129, 184, 183),
+  Color.fromARGB(255, 3, 103, 244),
+  Color.fromARGB(44, 77, 72, 72),
+];
